@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>9</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>792</x>
+      <y>144</y>
+      <w>189</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>Author
+--
+_id
+author_first_name
+author_last_name
+author_phone
+author_email</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>180</x>
+      <y>144</y>
+      <w>189</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>Publisher
+--
+_id
+publisher_name
+publisher_code
+publisher_address</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>486</x>
+      <y>144</y>
+      <w>189</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>Book
+--
+book_isbn
+book_name
+book_price</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>360</x>
+      <y>198</y>
+      <w>144</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>
+
+1.1              1.*</panel_attributes>
+    <additional_attributes>10.0;20.0;140.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>666</x>
+      <y>198</y>
+      <w>144</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>
+
+1.*              1.*</panel_attributes>
+    <additional_attributes>10.0;20.0;140.0;20.0</additional_attributes>
+  </element>
+</diagram>

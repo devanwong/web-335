@@ -1,0 +1,50 @@
+//class fields
+{
+	"classes": [
+		{
+				"_id": 200,
+				"class": "Math"
+		},
+		{
+				"_id": 201,
+				"class": "English"
+		}
+	]
+}
+
+//enroll fields 
+{
+	"enroll": [
+		{
+				"_id": 100,
+				"user_id": 001,
+				"class_id": 200,
+				"grade":"A"
+			},
+			{
+				"_id": 101,
+				"user_id": 001,
+				"class_id": 201,
+				"grade":"B"
+			}
+	]
+
+}
+
+//student fields
+{
+	"students": [
+		{
+				"id": 001,
+				"first_name": "Devan",
+				"last_name": "Wong",
+				"mi": "K"
+		},
+		{
+				"id": 002,
+				"first_name": "Astra",
+				"last_name": "Mochizuki",
+				"mi": "R"
+		}
+	]
+}

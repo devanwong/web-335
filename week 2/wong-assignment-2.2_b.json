@@ -1,0 +1,37 @@
+{
+	"_id": "1234",
+	"firstName": "Devan",
+	"lastName": "Wong",
+	"mi": "K",
+	"enrollments": [{
+			"_id": "4567",
+			"semesterType": "Term 3",
+			"courses": [{
+					"courseId": "Web 420",
+					"grade": "98"
+				},
+				{
+					"courseId": "Web 335",
+					"grade": "92"
+				}
+			],
+			"grade": "4.0"
+		},
+		{
+			"_id": "0987",
+			"semesterType": "Term 4",
+			"courses": [{
+					"_id": "0323",
+					"courseId": "Web 430",
+					"grade": "98"
+				},
+				{
+					"_id": "4443",
+					"courseId": "Web 335",
+					"grade": "92"
+				}
+			],
+			"grade": "4.0"
+		}
+	]
+}

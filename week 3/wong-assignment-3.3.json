@@ -1,0 +1,44 @@
+{
+  "_id": "publisher1",
+  "publisher_name": "O'Reilly Publisher",
+  "publisher_code": "001",
+  "publisher_address": "1005 Gravenstein Highway",
+  "books": [
+    {
+      "book_name": "RESTful Apis",
+      "book_isbn": "978-1449358068",
+      "book_price": "40.55",
+      "authors": [
+        {
+          "_id": "author1",
+          "author_first_name": "Leonard",
+          "author_last_name": "Richardson",
+          "author_phone": "123-123-1234",
+          "author_email": "l.richardson@aol.com"
+        },
+        {
+          "_id": "author02",
+          "author_first_name": "Mike",
+          "author_last_name": "Amundensen",
+          "author_phone": "234-234-2345",
+          "author_email": "m.amendensen@aol.com"
+        }
+      ]
+    },
+    {
+      "book_name": "Javascript Patterns",
+      "book_isbn": "978-0596806750",
+      "book_price": "35.67",
+      "authors": [
+        {
+          "_id": "author3",
+          "author_first_name": "Stoyan",
+          "author_last_name": "Stefanov",
+          "author_phone": "345-345-3456",
+          "author_email": "s.stefanov@aol.com"
+        }
+      ]
+    }
+  ]
+}
+

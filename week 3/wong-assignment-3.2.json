@@ -1,0 +1,28 @@
+{
+  "_id": "111111",
+  "firstName": "Devan",
+  "lastName": "Wong",
+  "username": "devthedev",
+  "roles": [{
+      "_id": "222",
+      "position": "developer",
+      "permissions": [{
+          "permissionId": "Level 1",
+          "permission": "true"
+        },
+        {
+          "permissionId": "Level 2",
+          "permission": "false"
+        }
+      ]
+    },
+    {
+      "_id": "222",
+      "position": "project manager",
+      "permissions": [{
+        "permissionId": "Level 1",
+        "permission": "false"
+      }]
+    }
+  ]
+}

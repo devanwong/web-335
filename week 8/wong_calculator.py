@@ -19,6 +19,7 @@ def subtract(a,b):
 def divide(a,b):
     return a / b
 
+# print statements
 print(add(1,2))
 print(subtract(4, 1))
 print(divide(8, 2))
@@ -26,6 +27,8 @@ print(divide(8, 2))
 # if/elses statement
 num1 = 0
 num2 = 0
+
+# logic
 if num1 > num2:
     print("num1  greater than num2")
 elif num1 == num2:
